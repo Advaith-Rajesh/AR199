@@ -1,0 +1,381 @@
+abbr {
+  text-decoration:none;
+}
+
+#b {
+  margin-right:50px
+}
+
+#b1 {
+  margin-right:50px;
+    
+}
+
+
+.button:active {
+  background-color: #FEC601;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+
+
+	.button:hover {
+	-webkit-transform: scale(1.5, 1.5);
+	transform: scale(1.5, 1.5);
+  background-color: #267DF8 
+}
+#b2 {
+    margin-right:50px;
+}
+
+a:hover {
+  color: blue;
+  background-color: darkseagreen;
+  border-radius: 5px;
+}
+#b3 {
+    margin-right:50px;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    border: 3.7px outset #2364AA;
+    width: 100%;
+    height: 75px;
+    background-color: #26F2F8;
+    color: white;
+    text-align: center;
+} 
+
+
+   .button {
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #3DF908;
+  border: 3.7px outset #3A08F9;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+	
+	/* position: relative; */
+	top: 0px;
+	bottom: 20px;
+
+}
+.navbar {
+      position: fixed;
+    left: 0;
+    bottom: 0;
+    border: 3.7px outset #2364AA;
+    width: 100%;
+    height: 75px;
+    background-color: #26F2F8;
+    color: white;
+    text-align: center;
+}
+/* Style the links inside the navigation bar */
+nav a {
+  float:left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  word-wrap: break-word;
+}
+html{background:gray;}
+
+ul p {
+  width: 500px;
+  text-align:center;
+  padding-left: 300;
+  padding-right:300;
+}
+li a:hover:not(.active) {
+background-color: #111;
+}
+
+/* Change the color of links on hover */
+nav a:hover {
+  background-color: #ddd;
+  color: black;
+  position:sticky;
+}
+
+/* Add a color to the active/current link */
+nav a:active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.main {
+margin-top: 30px; 
+}
+html{
+  scroll-behavior:smooth;
+}
+
+:root {
+	--fd: #112;
+	--fl: #eee;
+	--bd: #ccc;
+	--cp: #6d9eeb;
+	--cs: #ebbb6d;
+	--cu: #cedff8;
+	--ca: #ddf7fa;
+	--cb: #ebe5fb;
+	--cc: #f4e6fb;
+
+	scroll-behavior: smooth;
+}
+nav a:hover {
+	color: var(--cp);
+}
+.main {
+margin-bottom: 30px; 
+}
+
+h1{
+   color:white;
+   font-family: Cursive; 
+   text-align:center;
+}
+h2 {
+ color:orange;
+ background-color:firebrick;
+ font-family:cursive;
+ font-size:22px;
+ text-align:center;
+  transition: transform 1s;
+  transition: filter 1s;
+  transition: all 1s ease-in-out;
+ border-radius: 10px;
+ filter: drop-shadow(10px 5px 0.2rem rgba(236, 217, 203, 0.7))
+}
+
+h2:hover {
+  background-color:orange;
+  color:firebrick;
+  box-shadow:4px 4px;
+  transform: rotate(5deg);
+
+}
+
+.question{
+    caret-color: firebrick;
+}
+footer{
+   font-size: xx-small;
+}
+#repl {
+    display: block;
+    width: 300px;
+    padding: 31px 5px;
+    margin: 5% auto 1px auto;
+    background-color: orange;
+    text-align: center;
+    font-family: Helvetica;
+    font-size: 32px;
+    color: MintCream;
+    transition-property:background-color;
+    transition-duration:500ms;
+		text-decoration: dotted;
+		box-shadow: 0px 0px 5px 4px orange;
+		border-radius: 15px;
+  }
+#repl:hover {
+	background-color: green;
+	color: beige;
+	box-shadow: 0px 0px 5px 4px green;
+}
+
+div {
+	display: block;
+}
+
+
+
+p {
+    text-align:center;
+    color: white;
+    background: blue;
+    font-family: 'Comic Sans MS';
+    box-shadow: 0px 0px 5px 4px red;
+    border-radius: 20px;
+		transition-property:background-color;
+    transition-duration:800ms;
+    margin:1% 1%;
+}
+
+p:hover {
+	background-color:blanchedalmond;
+
+	color: black;
+	box-shadow: 0px 0px 5px 4px orangered;
+}
+
+div p {
+  margin: 5px 5px;
+}
+.projectName{
+		display: block;
+    width: 700px;
+    padding: 31px 5px;
+    border-radius: 5px;
+    margin: 15px auto;
+    background-color:blue;
+    text-align: center;
+    font-family: 'Helvetica';
+    font-size: 32px;
+    color: MintCream;
+   transition: transform 1s;
+  transition: filter 1s;
+  transition: all 2s ease-in-out;
+		text-decoration: dotted;
+    transition: transform .8s ease-in-out;
+}
+
+.projectName:hover{
+  background-color:aqua;
+  filter: saturate(0.2);
+  transform:scale(1.1);
+}
+
+
+.projectHeader {
+	font-family: fantasy;
+  color:black;
+	text-align:center;
+	font-size: 30px;	
+	display: block;
+	width:100px;
+	padding: 10px 5px;
+	border-radius: 5px;
+	margin: 20% auto;
+	background-color: blueviolet;
+  transition-property:background-color;
+	text-decoration: dotted;
+	box-shadow: 0px 0px 5px 4px blueviolet;
+  transition:ease-in;
+}
+
+.projectHeader:hover {
+  background-color: black;
+	color: blueviolet;
+  transition-property:background-color;
+  transition-duration:500ms;
+	box-shadow: 0px 0px 5px 4px black; 
+}
+
+header {
+	margin: 0;
+	padding: 0;
+}
+
+
+span a{
+		display: inline-block;
+    width: 135px;
+    padding: 50px 5px;
+    border-radius: 10px;
+    margin: 10% auto;
+    background-color:blue;
+    text-align: center;
+    font-family: 'Helvetica';
+    font-size: 32px;
+    color: MintCream;
+    transition-property:background-color;
+    transition-duration:800ms;
+		transition-timing-function:linear;
+		text-decoration: dotted;
+    
+}
+
+span a:hover {
+		background-color: aqua;
+		color: black;
+    box-shadow: 4px 4px;
+}
+
+#phaserjsintro {
+	color:darkgoldenrod;
+	text-decoration:dotted;
+}
+
+#aframelink {
+	color: darkgoldenrod;
+	text-decoration:dotted;
+	margin: 1% 1%;
+}
+
+.aframe .header{
+  font-family:cursive;
+  font-size:15px;
+  color: white;
+}
+
+.PhaserJS-Projects .header {
+  font-family:cursive;
+  font-size:15px;
+  color: white;
+}
+
+.projectName p {
+  margin: 0% 0%;
+  
+}
+
+
+img {
+  margin:0px 0px;
+}
+
+#something {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+
+}
+
+ul {
+  border: 3px solid blue;
+  border-radius: 10px;
+  background-color: deepskyblue;
+  color: #AF1FE4 ;
+}
+h3 {
+  color:white;
+}
+
+nav, .nav {
+overflow: hidden;
+
+top: 0; 
+width: 100%; 
+}
+
+
+nav a {
+float: left;
+display: block;
+color: #f2f2f2;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+
+
+nav a:hover {
+background: #ddd;
+color: black;
+}
+
+.main {
+margin-top: 30px; 
+}
